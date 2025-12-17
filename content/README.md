@@ -27,5 +27,5 @@ See `.claude/skills/founder-content/SKILL.md` for full guidelines.
 
 ## Platforms
 
-- **Twitter:** @ultrathinkr (primary)
+- **Twitter:** @ultrathinkco (primary)
 - **Website:** ultrathink.co / ultrathinker.com (this repo)

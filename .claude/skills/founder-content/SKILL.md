@@ -29,7 +29,7 @@ Key paths for content discovery:
 
 **Name:** Ultrathinker (or just "ultrathink")
 **Domains:** ultrathink.co, ultrathinker.com
-**Twitter:** @ultrathinkr
+**Twitter:** @ultrathinkco
 **Identity:** Anonymous builder shipping AI products
 
 **Positioning:**
@@ -254,7 +254,7 @@ If any answer is "yes" or "maybe," generalize or skip.
 
 ### Twitter/X (Primary)
 
-- **Handle:** @ultrathinkr
+- **Handle:** @ultrathinkco
 - **Bio:** Short, confident, slightly mysterious
 - **Format:** Single tweets, occasional threads (max 5 tweets)
 - **Cadence:** 3-5 posts/week (daily goal)

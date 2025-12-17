@@ -15,7 +15,7 @@ You're not a social media consultant. You're the content brain. You find the sto
 
 - **Anonymous founder** building AI-native products
 - **Domains:** ultrathink.co, ultrathinker.com
-- **Twitter:** @ultrathinkr
+- **Twitter:** @ultrathinkco
 - **Voice:** Confident, dry humour, technically credible, someone you'd want to work with
 
 ## App Repository Context
