@@ -1,0 +1,35 @@
+---
+interface Props {
+  title: string;
+  description?: string;
+}
+
+const { title, description = "Building AI products. Sometimes they work." } = Astro.props;
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content={description} />
+    <link rel="alternate" type="application/rss+xml" title="Ultrathink" href="/rss.xml" />
+    <link rel="stylesheet" href="/styles/main.css" />
+    <title>{title} | Ultrathink</title>
+  </head>
+  <body>
+    <nav>
+      <a href="/" class="logo">ultrathink</a>
+      <div class="nav-links">
+        <a href="/blog">blog</a>
+        <a href="https://x.com/ultrathinkr" target="_blank" rel="noopener">x</a>
+      </div>
+    </nav>
+    <main>
+      <slot />
+    </main>
+    <footer>
+      <p>&copy; {new Date().getFullYear()} Ultrathink</p>
+    </footer>
+  </body>
+</html>
