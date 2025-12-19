@@ -1,19 +1,23 @@
 # CLAUDE.md
 
-This is the Ultrathink personal brand repository - the anonymous founder persona for building AI products and sharing the journey.
+This is the Laterally personal brand repository - the anonymous founder persona for building AI products and sharing the journey.
 
 ## Project Overview
 
-**Ultrathink** is an anonymous founder building AI-native products. This repo contains:
+**Laterally** is an anonymous founder building AI-native products. This repo contains:
 - Personal website (Astro static site)
 - Blog posts (markdown in `src/content/blog/`)
 - Content management system (drafts, ideas, published tracking)
 - Claude Code agents and skills for content creation
 
 **Platforms:**
-- Website: ultrathink.co (also ultrathinker.com)
-- Twitter: @ultrathinkr
+- Website: laterally.ai
+- Twitter: @laterallyai
 - Hosting: Cloudflare Pages
+
+**Repository:**
+- GitHub: git@github.com:tomkanjam/laterally.git
+- Sync: SSH (key-based auth on this server)
 
 ## The Product Being Built
 
@@ -45,7 +49,7 @@ Run `/content-review` to:
 1. Check recent git commits in the vyx repo
 2. Check recently closed issues
 3. Generate content ideas from real development work
-4. Draft posts in the Ultrathinker voice
+4. Draft posts in the Laterally voice
 
 ### Writing Blog Posts
 1. Create markdown file in `src/content/blog/`
