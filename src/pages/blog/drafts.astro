@@ -1,0 +1,54 @@
+---
+import Base from '../../layouts/Base.astro';
+import { getCollection } from 'astro:content';
+
+// Only available in dev mode
+if (import.meta.env.PROD) {
+  return Astro.redirect('/blog');
+}
+
+const drafts = (await getCollection('blog', ({ data }) => data.draft))
+  .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
+---
+
+<Base title="Drafts">
+  <div class="blog-index">
+    <h1>Drafts</h1>
+    <p class="draft-notice">Dev only - not visible in production</p>
+
+    {drafts.length === 0 ? (
+      <p class="empty">No drafts. Create a post with <code>draft: true</code> in frontmatter.</p>
+    ) : (
+      <ul class="post-list">
+        {drafts.map((post) => (
+          <li>
+            <a href={`/blog/${post.slug}`}>
+              <time datetime={post.data.date.toISOString()}>
+                {post.data.date.toLocaleDateString('en-US', {
+                  year: 'numeric',
+                  month: 'short',
+                  day: 'numeric',
+                })}
+              </time>
+              <span class="title">{post.data.title}</span>
+            </a>
+          </li>
+        ))}
+      </ul>
+    )}
+
+    <p><a href="/blog">&larr; Back to blog</a></p>
+  </div>
+</Base>
+
+<style>
+  .draft-notice {
+    background: #f59e0b;
+    color: #000;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    font-size: 0.85rem;
+    display: inline-block;
+    margin-bottom: 1.5rem;
+  }
+</style>
