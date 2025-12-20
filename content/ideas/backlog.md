@@ -1,6 +1,6 @@
 # Content Ideas Backlog
 
-Ideas for future Ultrathinker content. Add new ideas at the top.
+Ideas for future Laterally content. Add new ideas at the top.
 
 ---
 

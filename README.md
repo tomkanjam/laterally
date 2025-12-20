@@ -1,6 +1,6 @@
-# ultrathink
+# laterally
 
-Personal website and blog for the Ultrathinker anonymous founder persona.
+Personal website and blog for the Laterally anonymous founder persona.
 
 ## Development
 

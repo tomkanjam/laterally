@@ -1,6 +1,6 @@
-# Content: Ultrathinker Personal Brand
+# Content: Laterally Personal Brand
 
-Content management for the anonymous "Ultrathinker" founder persona.
+Content management for the anonymous "Laterally" founder persona.
 
 ## Folders
 
@@ -27,5 +27,5 @@ See `.claude/skills/founder-content/SKILL.md` for full guidelines.
 
 ## Platforms
 
-- **Twitter:** @ultrathinkco (primary)
-- **Website:** ultrathink.co / ultrathinker.com (this repo)
+- **Twitter:** @laterallyai (primary)
+- **Website:** laterally.ai (this repo)
