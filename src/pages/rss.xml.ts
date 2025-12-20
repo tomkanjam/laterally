@@ -9,9 +9,9 @@ export async function GET(context: APIContext) {
   );
 
   return rss({
-    title: 'Ultrathink',
+    title: 'Laterally',
     description: 'Building AI products. Sometimes they work.',
-    site: context.site ?? 'https://ultrathink.co',
+    site: context.site ?? 'https://laterally.ai',
     items: sortedPosts.map((post) => ({
       title: post.data.title,
       pubDate: post.data.date,

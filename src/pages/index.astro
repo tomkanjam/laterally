@@ -1,10 +1,12 @@
 ---
 import Base from '../layouts/Base.astro';
+
+const isDev = import.meta.env.DEV;
 ---
 
 <Base title="About">
   <div class="about">
-    <h1>ultrathink</h1>
+    <h1>laterally</h1>
     <p class="tagline">Building autonomous AI agents. Sometimes they work.</p>
 
     <section>
@@ -36,10 +38,19 @@ import Base from '../layouts/Base.astro';
     <section>
       <h2>Elsewhere</h2>
       <ul>
-        <li><a href="https://x.com/ultrathinkco" target="_blank" rel="noopener">X/Twitter</a> — Short-form thoughts</li>
+        <li><a href="https://x.com/laterallyai" target="_blank" rel="noopener">X/Twitter</a> — Short-form thoughts</li>
         <li><a href="/blog">Blog</a> — Longer pieces</li>
         <li><a href="/rss.xml">RSS</a> — If you're that kind of person</li>
       </ul>
     </section>
+
+    {isDev && (
+      <section class="dev-section">
+        <h2>Dev Tools</h2>
+        <ul>
+          <li><a href="/blog/drafts">Drafts</a> — Preview unpublished posts</li>
+        </ul>
+      </section>
+    )}
   </div>
 </Base>

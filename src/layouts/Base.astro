@@ -13,23 +13,23 @@ const { title, description = "Building AI products. Sometimes they work." } = As
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content={description} />
-    <link rel="alternate" type="application/rss+xml" title="Ultrathink" href="/rss.xml" />
+    <link rel="alternate" type="application/rss+xml" title="Laterally" href="/rss.xml" />
     <link rel="stylesheet" href="/styles/main.css" />
-    <title>{title} | Ultrathink</title>
+    <title>{title} | Laterally</title>
   </head>
   <body>
     <nav>
-      <a href="/" class="logo">ultrathink</a>
+      <a href="/" class="logo">laterally</a>
       <div class="nav-links">
         <a href="/blog">blog</a>
-        <a href="https://x.com/ultrathinkco" target="_blank" rel="noopener">x</a>
+        <a href="https://x.com/laterallyai" target="_blank" rel="noopener">x</a>
       </div>
     </nav>
     <main>
       <slot />
     </main>
     <footer>
-      <p>&copy; {new Date().getFullYear()} Ultrathink</p>
+      <p>&copy; {new Date().getFullYear()} Laterally</p>
     </footer>
   </body>
 </html>

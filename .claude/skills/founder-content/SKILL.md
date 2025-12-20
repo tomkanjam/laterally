@@ -1,11 +1,11 @@
 ---
 name: founder-content
-description: Guides personal brand content for the anonymous "Ultrathinker" persona. Covers voice, tone, content strategy, and privacy guidelines for building credibility as an AI product builder and founder.
+description: Guides personal brand content for the anonymous "Laterally" persona. Covers voice, tone, content strategy, and privacy guidelines for building credibility as an AI product builder and founder.
 ---
 
 # Founder Content Skill
 
-This skill powers the Ultrathinker personal brand—an anonymous founder building AI products and sharing authentic insights about the journey.
+This skill powers the Laterally personal brand—an anonymous founder building AI products and sharing authentic insights about the journey.
 
 **The goal:** Build credibility that opens doors to VC funding and demonstrates PM/founder capability, all while maintaining anonymity.
 
@@ -27,9 +27,9 @@ Key paths for content discovery:
 
 ## The Persona
 
-**Name:** Ultrathinker (or just "ultrathink")
-**Domains:** ultrathink.co, ultrathinker.com
-**Twitter:** @ultrathinkco
+**Name:** Laterally
+**Domain:** laterally.ai
+**Twitter:** @laterallyai
 **Identity:** Anonymous builder shipping AI products
 
 **Positioning:**
@@ -38,7 +38,7 @@ Key paths for content discovery:
 - Thinks deeply about AI-native product development
 - Solo/small team operator punching above weight
 
-**What makes Ultrathinker interesting:**
+**What makes Laterally interesting:**
 - Actually building, not just talking about AI
 - Uses AI to build AI products (meta)
 - Anonymous but credible—work speaks for itself
@@ -64,7 +64,7 @@ Key paths for content discovery:
 **Twitter Bio Style:**
 ```
 Building autonomous AI agents. Sometimes they work.
-ultrathink.co
+laterally.ai
 ```
 
 **Good Post Examples:**
@@ -254,7 +254,7 @@ If any answer is "yes" or "maybe," generalize or skip.
 
 ### Twitter/X (Primary)
 
-- **Handle:** @ultrathinkco
+- **Handle:** @laterallyai
 - **Bio:** Short, confident, slightly mysterious
 - **Format:** Single tweets, occasional threads (max 5 tweets)
 - **Cadence:** 3-5 posts/week (daily goal)
@@ -262,7 +262,7 @@ If any answer is "yes" or "maybe," generalize or skip.
 
 ### Website (Secondary)
 
-- **Domain:** ultrathink.co (ultrathinker.com redirects)
+- **Domain:** laterally.ai
 - **Purpose:** Long-form versions of best Twitter content, portfolio
 - **Cadence:** 1 post/month (can be expanded Twitter threads)
 - **Style:** Clean, minimal, focused on writing
