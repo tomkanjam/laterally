@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" fill="none" stroke="#e5e5e5" stroke-width="1.5">
+  <rect width="1200" height="630" fill="#111"/>
+
+  <!-- Input/prompt on left -->
+  <rect x="100" y="260" width="120" height="110" rx="8" stroke-width="2"/>
+  <line x1="120" y1="290" x2="200" y2="290" stroke-opacity="0.6"/>
+  <line x1="120" y1="315" x2="180" y2="315" stroke-opacity="0.6"/>
+  <line x1="120" y1="340" x2="195" y2="340" stroke-opacity="0.6"/>
+
+  <!-- Arrow to LLM -->
+  <path d="M 220 315 L 300 315" stroke-width="1.5"/>
+  <path d="M 290 305 L 300 315 L 290 325" stroke-width="1.5"/>
+
+  <!-- LLM box (center) -->
+  <rect x="320" y="240" width="160" height="150" rx="12" stroke-width="2"/>
+  <circle cx="400" cy="315" r="30" stroke-width="1.5"/>
+  <circle cx="400" cy="315" r="15" stroke-width="1"/>
+  <circle cx="400" cy="315" r="4" fill="#e5e5e5" stroke="none"/>
+
+  <!-- Arrow to outputs -->
+  <path d="M 480 315 L 560 315" stroke-width="1.5"/>
+  <path d="M 550 305 L 560 315 L 550 325" stroke-width="1.5"/>
+
+  <!-- Multiple outputs branching -->
+  <path d="M 560 315 Q 600 315, 620 260" stroke-width="1.5"/>
+  <path d="M 560 315 L 620 315" stroke-width="1.5"/>
+  <path d="M 560 315 Q 600 315, 620 370" stroke-width="1.5"/>
+
+  <!-- Output boxes -->
+  <rect x="640" y="230" width="80" height="60" rx="6" stroke-width="1.5"/>
+  <rect x="640" y="285" width="80" height="60" rx="6" stroke-width="1.5"/>
+  <rect x="640" y="340" width="80" height="60" rx="6" stroke-width="1.5"/>
+
+  <!-- Eval arrows -->
+  <path d="M 720 260 L 800 260" stroke-dasharray="6 4"/>
+  <path d="M 720 315 L 800 315" stroke-dasharray="6 4"/>
+  <path d="M 720 370 L 800 370" stroke-dasharray="6 4"/>
+
+  <!-- Checkmarks and X -->
+  <circle cx="840" cy="260" r="20" stroke-width="1.5"/>
+  <path d="M 830 260 L 837 267 L 850 254" stroke-width="2"/>
+
+  <circle cx="840" cy="315" r="20" stroke-width="1.5"/>
+  <path d="M 830 315 L 837 322 L 850 309" stroke-width="2"/>
+
+  <circle cx="840" cy="370" r="20" stroke-width="1.5"/>
+  <path d="M 830 360 L 850 380" stroke-width="2"/>
+  <path d="M 850 360 L 830 380" stroke-width="2"/>
+
+  <!-- Feedback loop back to LLM -->
+  <path d="M 880 315 Q 950 315, 950 450 Q 950 520, 400 520 Q 250 520, 250 390 L 250 340" stroke-dasharray="8 4" stroke-opacity="0.4"/>
+  <path d="M 240 350 L 250 340 L 260 350" stroke-opacity="0.4"/>
+
+  <!-- Subtle grid lines -->
+  <line x1="0" y1="120" x2="1200" y2="120" stroke-opacity="0.08"/>
+  <line x1="0" y1="510" x2="1200" y2="510" stroke-opacity="0.08"/>
+
+  <!-- Nodes at key points -->
+  <circle cx="560" cy="315" r="4" fill="#e5e5e5" stroke="none"/>
+  <circle cx="800" cy="260" r="3" fill="#e5e5e5" stroke="none"/>
+  <circle cx="800" cy="315" r="3" fill="#e5e5e5" stroke="none"/>
+  <circle cx="800" cy="370" r="3" fill="#e5e5e5" stroke="none"/>
+</svg>

@@ -192,6 +192,14 @@ ul li {
   line-height: 1.7;
 }
 
+.post .content > p:first-child img {
+  width: calc(100% + 3rem);
+  margin-left: -1.5rem;
+  margin-top: -1rem;
+  margin-bottom: 2rem;
+  border-radius: 4px;
+}
+
 .post .content h2 {
   margin-top: 2.5rem;
 }
@@ -245,4 +253,30 @@ ul li {
 
 .post footer {
   margin-top: 3rem;
+}
+
+/* Dev section */
+.dev-section {
+  border: 1px dashed #f59e0b;
+  padding: 1rem;
+  border-radius: 4px;
+  margin-top: 1rem;
+}
+
+.dev-section h2 {
+  color: #f59e0b;
+  margin-top: 0;
+}
+
+/* Draft banner */
+.draft-banner {
+  background: #f59e0b;
+  color: #000;
+  text-align: center;
+  padding: 0.5rem;
+  font-family: var(--font-mono);
+  font-size: 0.8rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+  border-radius: 4px;
 }
